@@ -1,0 +1,91 @@
+.banner{
+    	font-family: "Oswald";
+			font-size: 64px;
+			letter-spacing: 4px;
+			color: #fff!important;
+    	font-weight: bold;
+     	
+    }
+    p{
+    	font-weight: 400;
+			font-size: 16px;
+    }
+    
+    p span{
+    	background-color: #000;
+			color: #fff;
+			display: inline-block;
+			font-family: "Oswald";
+			letter-spacing: 2px;
+			padding-left: 8px;
+			padding-right: 8px;
+			text-align: center;
+    }
+		
+		.photo {
+			background-attachment: fixed;
+			background-position: 50% 0;
+			background-repeat: no-repeat;
+			height: 450px;
+			position: relative;
+		}
+		.photo span {
+			bottom: 0;
+			color: white;
+			display: block;
+			left: 50%;
+			margin-left: -640px;
+			font-size: 38px;
+			padding: 10px;
+			position: absolute;
+			text-shadow: 0 2px 0 black, 0 0 10px black;
+/*			width: 1280px;*/
+		}
+		.summer {
+			background-image: url(../imgs/woman_sketch.jpeg);
+		}
+		.autumn {
+			background-image: url(../imgs/fish_pattern.jpeg);
+		}
+		.winter {
+			background-image: url(../imgs/IMAG7447_1_1.jpg);
+		}
+		.spring {
+			background-image: url(images/spring.jpg);
+		}
+		
+		.underline{
+			border-bottom: 1px solid grey;
+		}
+		
+		#footer {
+			position: static;
+  		width: 100%; 
+		}
+
+		#footer .row {
+  		margin-top: 30px;
+		}
+
+		.foot{
+			height: 60px;
+			background-color: #333;
+		}
+
+		.copyright a{
+			color: #fff;
+		}
+
+		.copyright i{
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.copyright a:hover{
+			color: red;
+			text-decoration: none;
+		}
+
+		.footer-social-icons{
+			color: #fff;
+		}
