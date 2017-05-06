@@ -1,3 +1,83 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+/*	margin bottom by footer height*/
+	margin-bottom: 220px;
+	font-family: "Monteserat","Open Sans","Roboto","Oswald";
+	background-color: #ebedf3;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+/*	set the fixed height og tht footer here*/
+	height: 220px;
+	background-color: #444;
+	color: #efefef;
+	padding: 30px 0;
+}
+
+@media only screen and (max-width: 768px){
+body{margin-bottom: 400px;}
+.footer{height: 370px;}
+}
+
+.footer a{
+	color: #639bcf;
+}
+.footer a:hover{
+	color: #dBe6f3;
+}
+
+/* index.hmtl*/
+.featurette .glyphicon{
+	font-size: 32px;
+}
+
+.container{
+	max-width: 960px;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px){
+	.row{
+		margin-bottom: -6px;
+	}
+}
+
+,well{
+	background-color: transparent;
+}
+
+/* change the nav */
+.navbar{
+	background-color: rgb(51,122,183);
+}
+
+.navbar a{
+	color: #dbe6f3;
+}
+
+.nav>li>a:focus,.nav>li>a:hover,
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #204d74;
+	color: #fff;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #dBe6f3;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+	background-color: rgb(51,122,183);
+}
+
 .banner{
     	font-family: "Oswald";
 			font-size: 64px;
@@ -57,20 +137,6 @@
 		.underline{
 			border-bottom: 1px solid grey;
 		}
-		
-		#footer {
-			position: static;
-  		width: 100%; 
-		}
-
-		#footer .row {
-  		margin-top: 30px;
-		}
-
-		.foot{
-			height: 60px;
-			background-color: #333;
-		}
 
 		.copyright a{
 			color: #fff;
@@ -84,8 +150,4 @@
 		.copyright a:hover{
 			color: red;
 			text-decoration: none;
-		}
-
-		.footer-social-icons{
-			color: #fff;
 		}
